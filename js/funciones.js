@@ -21,13 +21,13 @@ function convertir(pos) {
         }
 
         //formateamos la url del mp3.
-        var url = "http://217.76.158.133/easymusic/temporal/temporal-" + cadenas + ".mp3";
+        var url = "http://82.223.0.69/easymusic/temporal/temporal-" + cadenas + ".mp3";
 
         //mostramos el cargando
         $("#cargando").css("display", "block");
         $(".container").css("display", "none");
 
-        var uriConvertir = "http://217.76.158.133/" +
+        var uriConvertir = "http://82.223.0.69/" +
                 "easymusic/convertir.php?videoId=" + videoId[pos] + "&temporal=" + cadenas;
 
         //obtenemos el listado con las canciones. 
